@@ -4,7 +4,8 @@
   "description": "Basic repository configured to run tsc and prettier before every commit.",
   "main": "index.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "format": "prettier \"./src/**/*.+(js|jsx|css|less|scss|ts|tsx|md)\" --write"
   },
   "repository": {
     "type": "git",
@@ -13,6 +14,7 @@
   "author": "Julian Garamendy",
   "license": "ISC",
   "devDependencies": {
+    "prettier": "^1.18.2",
     "typescript": "^3.5.2"
   }
 }
