@@ -1,0 +1,18 @@
+{
+  "name": "precommit-hooks-demo",
+  "version": "1.0.0",
+  "description": "Basic repository configured to run tsc and prettier before every commit.",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "xxx"
+  },
+  "author": "Julian Garamendy",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.5.2"
+  }
+}
